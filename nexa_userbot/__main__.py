@@ -19,7 +19,7 @@ async def main_startup():
     print("""
 || Mutya Userbot ||
 
-Copyright (c) 2021 Itz-fork
+Copyright (c) 2021 EngrJuanMala
 """
     )
     await NEXAUB.start()

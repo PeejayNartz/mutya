@@ -84,7 +84,7 @@ async def upstream(client, message):
     ac_br = repo.active_branch.name
     if ac_br != "master":
         await status.edit(f"""
-`❌ Can't update your Nexa-Userbot becuase you're using a custom branch. ❌`
+`❌ Can't update your Mutya Userbot becuase you're using a custom branch. ❌`
             
 **Default Branch:** `master`
 **You are on:** `{ac_br}`

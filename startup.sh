@@ -1,10 +1,10 @@
 #!/usr/bin/bash
 
 echo "
-============ Nexa Userbot ============
+============ Mutya Userbot ============
 
 
-Copyright (c) 2021 Itz-fork | @NexaBotsUpdates
+Copyright (c) 2021 Itz-fork | @EngrjuanMala
 "
 
 start_nexaub () {
@@ -12,12 +12,12 @@ start_nexaub () {
   then
     echo "WARNING: Please add Pyrogram String Session"
   else
-	  python3 -m nexa_userbot
+	  python3 -m mutya_userbot
   fi
 }
 
 _install_nexaub () {
-  echo ">>>> Starting Nexa-Userbot"
+  echo ">>>> Starting Mutya-Userbot"
   start_nexaub
 }
 
