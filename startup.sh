@@ -12,7 +12,7 @@ start_nexaub () {
   then
     echo "WARNING: Please add Pyrogram String Session"
   else
-	  python3 -m mutya_userbot
+	  python3 -m nexa_userbot
   fi
 }
 
