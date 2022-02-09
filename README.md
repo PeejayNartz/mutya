@@ -15,6 +15,11 @@
 
 ### With Heroku
 
+## Heroku Deployment 💜
+The easy way to host this bot, deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HairyPotah02/Waldov3.1)
+
 - Fork the repo and copy your forked repo link
 - Now go to `https://heroku.com/deploy?template=<https://github.com/HairyPotah02/mutya>` (Replace `YOUR_FORKED_LINK_HERE` with copied repo link)
 - Fill the config vars and deploy!
