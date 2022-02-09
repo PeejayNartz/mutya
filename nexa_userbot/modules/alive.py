@@ -88,10 +88,10 @@ async def pyroalive(_, message: Message):
     alive_bef_msg = await e_or_r(nexaub_message=message, msg_text="`Processing...`")
     # Alive Message
     get_alive_msg = await get_custom_alive_msg()
-    custom_alive_msg = get_alive_msg if get_alive_msg else "Heya, I'm Using Nexa Userbot"
+    custom_alive_msg = get_alive_msg if get_alive_msg else "Heya, I'm Using Mutya Userbot"
     # Alive Pic
     g_al_pic = await get_custom_var(var="ALIVE_PIC")
-    alive_pic = g_al_pic[1] if g_al_pic else "cache/NEXAUB.png"
+    alive_pic = g_al_pic[1] if g_al_pic else "cache/Mutya2.jpg"
     NEXAUB_VERSION = await get_nexaub_version()
     xtra_modules = await get_xtra_modules_names()
     alive_msg = f"""
