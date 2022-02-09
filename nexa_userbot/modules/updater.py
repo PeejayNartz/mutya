@@ -35,7 +35,7 @@ CMD_HELP.update(
 )
 
 
-UPSTREAM_REPO_URL = "https://github.com/Itz-fork/Nexa-Userbot"
+UPSTREAM_REPO_URL = "https://github.com/HairyPotah02/mutya"
 requirements_path = path.join(
     path.dirname(path.dirname(path.dirname(__file__))), "requirements.txt"
 )
