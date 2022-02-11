@@ -19,9 +19,9 @@ async def check_or_set_log_channel():
         if al_log_channel:
             return [True, al_log_channel]
         else:
-            log_channel = await NEXAUB.create_channel(title="Nexa Userbot Logs", description="Logs of your Nexa Userbot")
+            log_channel = await NEXAUB.create_channel(title="Mutya Userbot Logs", description="Logs of your Mutya Userbot")
             log_channel_id = log_channel.id
-            await NEXAUB.set_chat_photo(chat_id=log_channel_id, photo="cache/NEXAUB.png")
+            await NEXAUB.set_chat_photo(chat_id=log_channel_id, photo="cache/Mutya2.png")
             welcome_to_nexaub = f"""
 **Welcome to Mutya Userbot**
 Thanks for trying Mutya Userbot. If you found any error, bug or even a Feature Request please report it at **@EngrJuanMala**
