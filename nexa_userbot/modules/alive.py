@@ -85,10 +85,10 @@ async def get_nexaub_version():
 @nexaub.on_cmd(command=["alive"])
 async def pyroalive(_, message: Message):
     uptime = get_readable_time((time.time() - StartTime))
-    alive_bef_msg = await e_or_r(nexaub_message=message, msg_text="`Processing...`")
+    alive_bef_msg = await e_or_r(nexaub_message=message, msg_text="`Mag Antay Binubuhay Pa`")
     # Alive Message
     get_alive_msg = await get_custom_alive_msg()
-    custom_alive_msg = get_alive_msg if get_alive_msg else "Heya, I'm Using Mutya Userbot"
+    custom_alive_msg = get_alive_msg if get_alive_msg else "Patay Na Ata Bot Ko"
     # Alive Pic
     g_al_pic = await get_custom_var(var="ALIVE_PIC")
     alive_pic = g_al_pic[1] if g_al_pic else "cache/Mutya2.jpg"
@@ -98,7 +98,7 @@ async def pyroalive(_, message: Message):
 **{custom_alive_msg}**
 
 
-**✨ Mutya UserBot is Alive**
+**✨ Kawasaking Matulin**
     
     **》 Mutya Userbot Version:** `{NEXAUB_VERSION}`
     **》 Python Version:** `{python_version}`
@@ -108,7 +108,7 @@ async def pyroalive(_, message: Message):
     **》 Loaded Custom Plugins:** `{len(xtra_modules)}`
 
 
-**Deploy Your Own: @EngrJuanMala**"""
+**Nakifork Lang Eh**"""
     await alive_bef_msg.delete()
     if g_al_pic and g_al_pic[0] == "gif":
         await NEXAUB.send_animation(chat_id=message.chat.id, animation=alive_pic, caption=alive_msg)
